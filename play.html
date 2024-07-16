@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Love Running</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Arial&family=Verdana&family=Courier+New&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #77df8d;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-family: 'Honk', cursive;
+            font-size: 3em;
+            color: #86c48b;
+            margin: 0;
+            padding: 20px 0;
+            background-color: #055f23;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        }
+        .navbar {
+            background-color: #4CAF50;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+        }
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .navbar a:hover {
+            background-color: #3e8e41;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Love Running Gallery</h1>
+    
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="signup.html">Sign Up</a>
+    </div>
+
+    <div class="gallery">
+        <!-- Replace these placeholder images with your actual running images -->
+        <img src="https://via.placeholder.com/300x200?text=Running+1" alt="Running 1">
+        <img src="https://via.placeholder.com/300x200?text=Running+2" alt="Running 2">
+        <img src="https://via.placeholder.com/300x200?text=Running+3" alt="Running 3">
+        <img src="https://via.placeholder.com/300x200?text=Running+4" alt="Running 4">
+        <img src="https://via.placeholder.com/300x200?text=Running+5" alt="Running 5">
+        <img src="https://via.placeholder.com/300x200?text=Running+6" alt="Running 6">
+    </div>
+</body>
+</html>
